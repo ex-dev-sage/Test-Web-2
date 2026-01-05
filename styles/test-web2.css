@@ -1,0 +1,47 @@
+nav li a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 55px;
+    margin: 30px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+nav li:hover{
+    background-color:aqua;
+
+}
+h1{
+    font-style:italic;
+    color: black;
+    background: linear-gradient(135deg, blue, #f1036a);
+    border: none
+    border-radius: 25px;
+    text-align: left;
+    padding: 10px 15px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px black;
+}
+.photo{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  overflow-x:auto;
+  justify-content: auto;
+}
+.photo img{
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+.East-Duo{
+    display: flex;
+    justify-content: center;
+}
+.East-Duo video{
+    width: 40%;
+    height: 20%;
+}
