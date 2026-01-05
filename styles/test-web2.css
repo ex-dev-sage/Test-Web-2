@@ -1,5 +1,11 @@
+body{
+    background-color:beige;
+    margin: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 nav li a{
     text-decoration: none;
+    color: black;
 }
 nav li{
     list-style: none;
@@ -10,16 +16,16 @@ nav li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
-nav li:hover{
-    background-color:aqua;
+nav li a:hover{
+    color:blueviolet;
 
 }
 h1{
     font-style:italic;
     color: black;
     background: linear-gradient(135deg, blue, #f1036a);
-    border: none
-    border-radius: 25px;
+    border: 2px;
+    border-radius: 10px;
     text-align: left;
     padding: 10px 15px;
     display: inline-block;
@@ -44,4 +50,9 @@ h1{
 .East-Duo video{
     width: 40%;
     height: 20%;
+}
+.article2{
+    display: flex;
+    gap:10px;
+    flex-direction: row-reverse;
 }
